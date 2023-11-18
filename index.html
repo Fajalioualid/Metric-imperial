@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Metric/imperial unit converter</h1>
+                <input id="inp" type="number">
+                <button onclick="get(), getL(),getK()">Convert</button>
+            </div>
+            <div class="converter">
+                <div id="group1">
+                    <h4>Length (meters/feet)</h4>
+                    <p id="gr1"></p>
+                </div> 
+                <div id="group2" >
+                    <h4>Volume (liters/gallons)</h4>
+                    <p id="gr2"></p>
+                </div>
+                <div id="group3">
+                    <h4>Mass(kilogram/pound)</h4>
+                    <p id="gr3"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
